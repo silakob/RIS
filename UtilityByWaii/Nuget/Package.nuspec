@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>Utility.Package</id>
+    <version>1.1.0</version>
+    <authors>sila.k</authors>
+    <owners>sila.k</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>http://project_url_here_or_delete_this_line/</projectUrl>
+    <iconUrl>http://icon_url_here_or_delete_this_line/</iconUrl>
+    <description>Use for common fuction</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>$copyright$</copyright>
+    <tags>Sila Package</tags>
+    <dependencies>
+      <group targetFramework="netcoreapp3.1" >
+        <dependency id="System.Text.Json" version="5.0.1" />
+        <dependency id="PredicateBuilder" version="1.0.0" />
+        <dependency id="Microsoft.EntityFrameworkCore" version="3.1.8" />
+        <dependency id="Microsoft.EntityFrameworkCore.Relational" version="3.1.8" />
+      </group>
+      <group targetFramework=".NETStandard2.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="../bin/Debug/netstandard2.1/UtilityByWaii.dll" target="lib"></file>
+    <file src="../bin/Debug/netcoreapp3.1/UtilityByWaii.dll" target="lib\netcoreapp3.1"></file>
+  </files>
+</package>
